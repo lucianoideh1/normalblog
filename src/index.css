@@ -2,6 +2,33 @@ body {
   margin: 0;
   font-family:  BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+    background-color: rgb(227, 227, 227);
+}
+
+nav{
+  margin: 0;
+  background-color: rgb(96, 96, 232);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li{
+  padding-right: 10px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+header h1 {
+  font-size: 100px;
+  text-align: center;
+  font-weight: 200;
+  border-bottom: 2px dashed rgb(109, 109, 109);
+  padding-bottom: 70px;
 }
 
 .card img{

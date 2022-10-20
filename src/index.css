@@ -57,3 +57,9 @@ h3{
   width: 225px;
   height: 200px;
 }
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}

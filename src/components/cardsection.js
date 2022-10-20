@@ -17,6 +17,12 @@ export default function Cardsection() {
             Book
           </span>
         </div>
+        <div className="card">
+          <img src="../images/poker.jpg" alt="pokercards" />
+          <span>
+           Poker
+          </span>
+        </div>
         </section>
     </div>
     

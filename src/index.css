@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Montserrat:wght@500&family=Poppins&display=swap');
+
+
 body {
   margin: 0;
   font-family:  BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -23,12 +26,31 @@ nav ul li{
   font-weight: 500;
 }
 
+
 header h1 {
+  
   font-size: 100px;
   text-align: center;
-  font-weight: 200;
-  border-bottom: 2px dashed rgb(109, 109, 109);
-  padding-bottom: 70px;
+  font-weight:600;
+
+  margin: 0;
+  color: rgb(96, 96, 232);
+}
+
+ header h2 {
+  font-size: 100px;
+  text-align: center;
+  font-weight: 100;
+  margin: 0;
+}
+
+h3{
+  font-size: 50px;
+  text-align: center;
+  border-top: 1px solid black;
+  padding-top: 50px;
+
+  
 }
 
 .card img{

@@ -3,6 +3,8 @@ import React from "react";
 export default function Cardsection() {
   return (
     <div>
+      <h3>Section</h3>
+      <section>
         <div className="card">
           <img src="../images/plants.png" alt="plant" />
           <span>
@@ -15,6 +17,8 @@ export default function Cardsection() {
             Book
           </span>
         </div>
+        </section>
     </div>
+    
   );
 }
